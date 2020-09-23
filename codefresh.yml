@@ -13,7 +13,6 @@ spec:
     events:
     - push
     branchRegex: /master/gi
-    modifiedFilesGlob: "argocd/**"
     verified: true
   contexts: []
   steps:
