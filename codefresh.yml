@@ -27,6 +27,6 @@ spec:
       image: codefresh/kubectl
       commands:
       - kubectl config use-context docatalog
-      - kubectl apply --filename argocd/apps.yaml
+      - kubectl get namespaces
   stages: []
 
