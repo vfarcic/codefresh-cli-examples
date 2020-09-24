@@ -23,3 +23,4 @@ echo "export GOOGLE_APPLICATION_CREDENTIALS=account.json"
 echo 
 echo "export KUBECONFIG=$PWD/kubeconfig.yaml"
 
+
