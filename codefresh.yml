@@ -26,7 +26,7 @@ spec:
       title: Applying production environment
       image: codefresh/kubectl
       commands:
-      - kubectl config use-context devops-catalog
+      - kubectl config use-context gke_doc-20200910120159_us-east1_devops-catalog
       - kubectl get namespaces
   stages: []
 
