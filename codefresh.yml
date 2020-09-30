@@ -9,7 +9,7 @@ spec:
   - type: git
     provider: github
     name: main
-    repo: vfarcic/codefresh-cli
+    repo: vfarcic/codefresh-cli-examples
     events:
     - push
     branchRegex: /master/gi
