@@ -9,7 +9,7 @@ spec:
   - type: git
     provider: github
     name: main
-    repo: vfarcic/codefresh-cli
+    repo: vfarcic/codefresh-cli-examples
     events:
     - push
     branchRegex: /master/gi
@@ -26,7 +26,7 @@ spec:
       title: Applying production environment
       image: codefresh/kubectl
       commands:
-      - kubectl config use-context gke_doc-20200910120159_us-east1_devops-catalog
+      - kubectl config use-context my-cluster
       - kubectl get namespaces
   stages: []
 
